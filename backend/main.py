@@ -1,6 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
+from app.database import create_tables
+from app.models import User, MailAccount, Email, Attachment
+
+# Create database tables on startup
+create_tables()
 
 # Create FastAPI app
 app = FastAPI(
