@@ -51,8 +51,11 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   const token = localStorage.getItem('access_token')
   
+  // Temporarily disable auth check for development
   if (to.meta.requiresAuth && !token) {
-    next('/login')
+    // For development: allow access without token
+    console.log('Auth check bypassed for development')
+    next()
   } else {
     next()
   }

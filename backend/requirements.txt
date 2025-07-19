@@ -18,6 +18,14 @@ email-validator==2.2.0
 bleach==6.2.0
 html2text==2025.4.15
 
+# URL & Link Security Analysis
+tldextract==5.1.1
+dnspython==2.6.1
+url-normalize==1.4.3
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.0
+validators==0.22.0
+
 # AI & Analysis
 httpx==0.28.1
 openai==1.97.0
