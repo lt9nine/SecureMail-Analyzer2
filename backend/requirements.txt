@@ -1,0 +1,39 @@
+# FastAPI & Web Framework
+fastapi==0.116.1
+uvicorn==0.35.0
+python-multipart==0.0.6
+
+# Database & ORM
+sqlalchemy==2.0.41
+alembic==1.12.1
+
+# Authentication & Security (Python 3.13 compatible)
+python-jose==3.5.0
+passlib==1.7.4
+python-decouple==3.8
+
+# IMAP & Email Processing
+imap-tools==1.11.0
+email-validator==2.2.0
+bleach==6.2.0
+html2text==2025.4.15
+
+# AI & Analysis
+httpx==0.28.1
+openai==1.97.0
+aiofiles==24.1.0
+
+# Background Tasks & Scheduling
+apscheduler==3.11.0
+
+# VirusTotal Integration
+requests==2.32.4
+
+# Development & Testing
+pytest==8.4.1
+pytest-asyncio==1.1.0
+
+# Utilities
+python-dateutil==2.9.0.post0
+pydantic==2.11.7
+pydantic-settings==2.10.1 
